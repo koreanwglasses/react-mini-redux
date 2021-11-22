@@ -5,7 +5,11 @@
   "repository": "git@github.com:koreanwglasses/react-mini-redux.git",
   "author": "koreanwglasses <koreanwglasses@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "format": "prettier --ignore-path .gitignore -w ."
+  },
   "devDependencies": {
+    "prettier": "^2.4.1",
     "typescript": "^4.5.2"
   },
   "dependencies": {
