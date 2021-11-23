@@ -1,6 +1,6 @@
 {
   "name": "@koreanwglasses/react-mini-redux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package for when Redux is overkill but useReducer is too basic",
   "repository": "git@github.com:koreanwglasses/react-mini-redux.git",
   "author": "koreanwglasses <koreanwglasses@gmail.com>",
