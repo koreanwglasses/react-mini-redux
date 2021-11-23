@@ -1,15 +1,19 @@
 {
   "name": "@koreanwglasses/react-mini-redux",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A package for when Redux is overkill but useReducer is too basic",
   "repository": "git@github.com:koreanwglasses/react-mini-redux.git",
   "author": "koreanwglasses <koreanwglasses@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "format": "prettier --ignore-path .gitignore -w .",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "prettier": "^2.4.1",

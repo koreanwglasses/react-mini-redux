@@ -1,1 +1,1 @@
-export {createSlice} from "./slice";
+export { createSlice, useSlice } from "./slice";
